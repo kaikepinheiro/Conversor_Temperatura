@@ -1,0 +1,65 @@
+body{
+    background: -webkit-radial-gradient(to left, #7a0dd4, #0db0f1);
+    background: linear-gradient(to left, #7a0dd4, #0db0f1);
+}
+
+#container{
+    margin: 0 auto;
+    width: auto;
+    display: table;
+    text-align: center;
+}
+
+#convert{
+    margin-top: 2%;
+    background-color: rgb(22, 6, 238);
+}
+
+#clear{
+    margin-top: 2%;
+    background-color: maroon;
+}
+
+#convert:hover{
+    background-color: #bcc768;
+}
+
+h1{
+    font-family: sans-serif;
+    color: rgb(0, 255, 234);
+}
+
+input{
+    display: block;
+    padding: 10px;
+    margin-top: 2em;
+    color: rgb(238, 27, 20);
+    margin-left: 28%;
+    font-family: cursive, sans-serif;
+}
+
+::-webkit-input-placeholder{
+    color: #ccc;
+}
+
+::-moz-placeholder{
+    color: #ccc;
+}
+
+::-moz-placeholder{
+    color: #ccc;
+}
+
+::-ms-input-placeholder{
+    color: #ccc;
+}
+
+button{
+    padding: 10px;
+    font-size: 1,2em;
+    color: #ffffff;
+}
+
+figure{
+    text-align: center;
+}
